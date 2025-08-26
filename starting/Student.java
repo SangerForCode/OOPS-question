@@ -1,3 +1,4 @@
+package starting;
 public class Student {
     private int s_marks, e_marks;
     static int total_marks;

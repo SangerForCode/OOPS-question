@@ -1,3 +1,4 @@
+package starting;
 class Student{
 //properties of a student will go here
 String name;
