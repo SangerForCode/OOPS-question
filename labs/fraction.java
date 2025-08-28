@@ -1,42 +1,15 @@
-class Fraction{
+package labs;
 
-   private int num, denom;
-
-   public Fraction (){
-
-       num = 0;
-
-       denom = 1;   }
-
-    public Fraction (int n){
-
-       num = n;
-
-       denom = 1;   }
-
-    public Fraction (int p, int q)   {
-
-       num = p;
-
-       denom = q;
-       reduce();
-
-    }
-
-   public Fraction (Fraction other)   {
-
-       num = other.num;
-
-       denom = other.denom;   }
-
-   public Fraction reduce(){
-    
-   }
-
-public Fraction invert(Fraction a){  }
-
-  public Fraction add(Fraction a, Fraction b){ }
-
-public Fraction add (Fraction a, int n)   { ... }
-
+public class fraction{
+    public static void main(String args[]){
+        int[] z = new int[5];
+        z[0]=1;
+        z[1]=2;
+        z[2]=3;
+        z[3]=14;
+        z[4]=15;
+        int x = z[3];
+        int[] y = {1,2,3,4};
+        System.out.println(z[4]);
+         }
 }
